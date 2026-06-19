@@ -40,12 +40,12 @@ namespace LazyCultivator
             {
                 if (_cultivation.IsAtPeak)
                 {
-                    qiLabel.text = $"Tu vi: {_state.qi:F1}   (Viên Mãn)";
+                    qiLabel.text = $"Tu vi: {_state.qi:F0}   (Viên Mãn)";
                 }
                 else
                 {
                     qiLabel.text =
-                        $"Tu vi: {_state.qi:F1} / {_cultivation.CurrentBreakthroughCost:F1}   (+{_cultivation.QiPerSecond}/giây)";
+                        $"Tu vi: {_state.qi:F0} / {_cultivation.CurrentBreakthroughCost:F0}   (+{_cultivation.QiPerSecond}/giây)";
                 }
             }
         }

@@ -12,4 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62e8b01eaf1c70b40a3a4954e357bc6f, type: 3}
   m_Name: RealmDatabase
   m_EditorClassIdentifier: Assembly-CSharp::LazyCultivator.RealmDatabase
-  realms: []
+  realms:
+  - displayName: "Luy\u1EC7n Kh\xED"
+    subLevels: 10
+    baseQi: 10
+    qiGrowthPerSubLevel: 9
+  - displayName: "Tr\xFAc c\u01A1"
+    subLevels: 10
+    baseQi: 100
+    qiGrowthPerSubLevel: 9
