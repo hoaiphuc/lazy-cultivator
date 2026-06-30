@@ -15,9 +15,9 @@ MonoBehaviour:
   realms:
   - displayName: "Luy\u1EC7n Kh\xED"
     subLevels: 10
-    baseQi: 10
-    qiGrowthPerSubLevel: 9
+    baseQi: 100
+    qiGrowthPerSubLevel: 1.5
   - displayName: "Tr\xFAc c\u01A1"
     subLevels: 10
-    baseQi: 100
-    qiGrowthPerSubLevel: 9
+    baseQi: 2000
+    qiGrowthPerSubLevel: 1.3
